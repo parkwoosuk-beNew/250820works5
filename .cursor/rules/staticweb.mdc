@@ -1,0 +1,65 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# AI SNS 마케팅 서비스 랜딩 페이지
+
+## 프로젝트 개요
+- **목적**: 포미서비스 AI SNS 마케팅 서비스 홍보 및 상담 신청을 위한 단일 페이지 웹사이트
+- **배포**: GitHub Pages 또는 정적 호스팅
+- **구조**: 단순한 단일 폴더 구조
+
+**중요 사항**
+- Git 관리 규칙
+  - **Git 명령어는 Github mcp 를 사용해서 수행합니다**
+- 테스트 규칙
+  - **puppeteer mcp 를 사용해서 브라우저 상에서 다양한 테스트를 수행합니다**
+
+## 기술 스택
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Tailwind.css 사용
+
+## 페이지 섹션 구조
+1. **Hero Section**: 메인 타이틀, 서브 타이틀, CTA 버튼
+2. **Service Introduction**: 3가지 핵심 장점 카드
+3. **Features Section**: AI 기능 4가지 소개
+4. **Pricing Section**: 기존 업체 vs 포미서비스 비교
+5. **Process Section**: 4단계 프로세스 설명
+6. **Testimonials Section**: 고객 후기
+7. **CTA Section**: 최종 상담 유도
+8. **Footer**: 회사 정보 및 링크
+
+## 개발 규칙
+- 프레임워크나 빌드 도구 사용 금지
+- 모든 코드는 각각의 파일에 포함 (HTML, CSS, JS 분리)
+- ES6+ 문법 사용 가능
+- 반응형 디자인 필수 (Mobile-first approach)
+- 부드러운 스크롤 애니메이션 구현
+- 인터섹션 옵저버를 활용한 스크롤 애니메이션
+- 폼 유효성 검사 구현
+
+## 디자인 가이드라인
+- **색상 팔레트** (UMAUMA Icons 테마):
+  ```css
+  --primary-dark: #1243A6;    /* 진한 파랑 - 주요 버튼, 헤더 */
+  --primary: #1D64F2;         /* 밝은 파랑 - 링크, 하이라이트 */
+  --dark: #011C40;            /* 네이비 - 텍스트, 배경 */
+  --light: #F2EED8;           /* 크림 - 배경, 카드 */
+  --accent: #F24822;          /* 오렌지레드 - CTA, 강조 */
+  ```
+- **색상 사용 가이드**:
+  - 메인 배경: --light (#F2EED8)
+  - 텍스트: --dark (#011C40)
+  - 주요 버튼: --primary-dark (#1243A6)
+  - 호버 효과: --primary (#1D64F2)
+  - CTA 버튼: --accent (#F24822)
+  - 섹션 구분: --dark (#011C40) 배경에 흰색 텍스트
+- **폰트**: 
+  - 제목: Pretendard 또는 Noto Sans KR Bold
+  - 본문: Pretendard 또는 Noto Sans KR Regular
+- **애니메이션**: 
+  - Fade-in, Slide-up 효과
+  - 호버 효과 및 마이크로 인터랙션
